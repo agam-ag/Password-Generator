@@ -32,7 +32,6 @@ function handleSlider(){
 
 function setIndicator(color){
     indicator.style.backgroundColor=color;
-    //shadow-HW
     // indicator.style.boxShadow= "2px 2px 2px";
     indicator.style.boxShadow = `0px 0px 12px 1px ${color}`;
 }
@@ -97,7 +96,6 @@ async function copyContent(){
 }
 
 function shufflePassword(array) {
-    //Fisher Yates Method
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         const temp = array[i];
